@@ -1,4 +1,4 @@
-# Frame3D (reconstruction of sequential frames in 3D)
+# Frame3D (Реконструкция последовательных кадров в 3D)
 
 ## Обнаружение ключевых точек
 1. ORB (Oriented FAST and Rotated BRIEF)
