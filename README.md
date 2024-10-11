@@ -1,7 +1,6 @@
 # Frame3D
 
-## Алгоритмы
-# Обнаружение ключевых точек
+## Обнаружение ключевых точек
 1. ORB (Oriented FAST and Rotated BRIEF)
 2. SIFT (Scale-Invariant Feature Transform)
 
