@@ -6,10 +6,10 @@
 #include <filesystem>
 #include <locale>
 
-class VideoFrameExtractor {
+class VideFrameSaver {
 public:
-    VideoFrameExtractor(const std::string& videoPath, const std::string& outputDir);
-    void extractFrames();
+    VideFrameSaver(const std::string& videoPath, const std::string& outputDir);
+    void saveFrames();
 
 private:
     std::string videoPath;

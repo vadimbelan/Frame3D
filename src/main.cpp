@@ -12,8 +12,8 @@ int main() {
     std::string outputDir = "frames";
 
     if (!videoPath.empty()) {
-        VideoFrameExtractor extractor(videoPath, outputDir);
-        extractor.extractFrames();
+        VideFrameSaver saver(videoPath, outputDir);
+        saver.saveFrames();
     } else {
         std::cout << "Пропускаем извлечение кадров." << std::endl;
     }

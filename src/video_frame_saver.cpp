@@ -1,11 +1,11 @@
 #include "video_frame_saver.h"
 
-VideoFrameExtractor::VideoFrameExtractor(const std::string& videoPath, const std::string& outputDir)
+VideFrameSaver::VideFrameSaver(const std::string& videoPath, const std::string& outputDir)
     : videoPath(videoPath), outputDir(outputDir) {
     setlocale(LC_ALL, "ru_RU.UTF-8");
 }
 
-void VideoFrameExtractor::extractFrames() {
+void VideFrameSaver::saveFrames() {
     cv::VideoCapture cap(videoPath);
 
     if (!cap.isOpened()) {
