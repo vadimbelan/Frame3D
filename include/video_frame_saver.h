@@ -1,5 +1,5 @@
-#ifndef VIDEO_FRAME_EXTRACTOR_H
-#define VIDEO_FRAME_EXTRACTOR_H
+#ifndef VIDEO_FRAME_SAVER_H
+#define VIDEO_FRAME_SAVER_H
 
 #include <opencv2/opencv.hpp>
 #include <iostream>
@@ -16,4 +16,4 @@ private:
     std::string outputDir;
 };
 
-#endif // VIDEO_FRAME_EXTRACTOR_H
+#endif // VIDEO_FRAME_SAVER_H
