@@ -4,6 +4,7 @@
 #include <string>
 #include <regex>
 #include <algorithm>
+#include <clocale>
 
 namespace fs = std::filesystem;
 
@@ -14,6 +15,8 @@ struct Frame {
 };
 
 int main() {
+    std::setlocale(LC_ALL, "ru_RU.UTF-8");
+
     fs::path frames_dir = fs::current_path().parent_path() / "frames";
 
     if (!fs::exists(frames_dir) || !fs::is_directory(frames_dir)) {
