@@ -1,9 +1,9 @@
 # Frame3D
 
 ## Алгоритмы
-1. Обнаружение ключевых точек
-ORB (Oriented FAST and Rotated BRIEF)
-SIFT (Scale-Invariant Feature Transform)
+# Обнаружение ключевых точек
+1. ORB (Oriented FAST and Rotated BRIEF)
+2. SIFT (Scale-Invariant Feature Transform)
 
 ## Установка
 1. Установите CMake.
